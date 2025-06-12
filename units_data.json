@@ -34,16 +34,16 @@
       "gal_uk": 4.54609,
       "qt_us": 0.946353,
       "pt_us": 0.473176,
-      "cup_us": 0.24, 
+      "cup_us": 0.236588, 
       "floz_us": 0.0295735
     }
   },
   "Temperature": {
     "base_unit": "C",
     "units": {
-      "C": "Celsius",
-      "F": "Fahrenheit",
-      "K": "Kelvin"
+      "C": 0, 
+      "F": 0,
+      "K": 0
     },
     "type": "temperature"
   },
@@ -76,10 +76,10 @@
     "base_unit": "byte",
     "units": {
       "byte": 1,
-      "KB": 1024,
-      "MB": 1048576,
-      "GB": 1073741824,
-      "TB": 1099511627776,
+      "KiB": 1024,
+      "MiB": 1048576,
+      "GiB": 1073741824,
+      "TiB": 1099511627776,
       "bit": 0.125
     }
   },
@@ -91,8 +91,8 @@
       "hr": 3600,
       "day": 86400,
       "week": 604800,
-      "month": 2628000, 
-      "year": 31536000
+      "month (average)": 2628000, 
+      "year (365 days)": 31536000
     }
   }
 }
