@@ -1,0 +1,98 @@
+{
+  "Length": {
+    "base_unit": "m",
+    "units": {
+      "m": 1,
+      "km": 1000,
+      "cm": 0.01,
+      "mm": 0.001,
+      "mi": 1609.34,
+      "yd": 0.9144,
+      "ft": 0.3048,
+      "in": 0.0254,
+      "nmi": 1852
+    }
+  },
+  "Weight/Mass": {
+    "base_unit": "kg",
+    "units": {
+      "kg": 1,
+      "g": 0.001,
+      "mg": 0.000001,
+      "lb": 0.453592,
+      "oz": 0.0283495,
+      "t": 1000
+    }
+  },
+  "Volume": {
+    "base_unit": "l",
+    "units": {
+      "l": 1,
+      "ml": 0.001,
+      "m3": 1000,
+      "gal_us": 3.78541,
+      "gal_uk": 4.54609,
+      "qt_us": 0.946353,
+      "pt_us": 0.473176,
+      "cup_us": 0.24, 
+      "floz_us": 0.0295735
+    }
+  },
+  "Temperature": {
+    "base_unit": "C",
+    "units": {
+      "C": "Celsius",
+      "F": "Fahrenheit",
+      "K": "Kelvin"
+    },
+    "type": "temperature"
+  },
+  "Speed": {
+    "base_unit": "m/s",
+    "units": {
+      "m/s": 1,
+      "km/h": 0.277778,
+      "mph": 0.44704,
+      "knot": 0.514444,
+      "ft/s": 0.3048
+    }
+  },
+  "Area": {
+    "base_unit": "m2",
+    "units": {
+      "m2": 1,
+      "km2": 1000000,
+      "ha": 10000,
+      "cm2": 0.0001,
+      "mm2": 0.000001,
+      "sqmi": 2589988.11,
+      "sqyd": 0.836127,
+      "sqft": 0.092903,
+      "sqin": 0.00064516,
+      "acre": 4046.86
+    }
+  },
+  "Data Storage": {
+    "base_unit": "byte",
+    "units": {
+      "byte": 1,
+      "KB": 1024,
+      "MB": 1048576,
+      "GB": 1073741824,
+      "TB": 1099511627776,
+      "bit": 0.125
+    }
+  },
+  "Time": {
+    "base_unit": "s",
+    "units": {
+      "s": 1,
+      "min": 60,
+      "hr": 3600,
+      "day": 86400,
+      "week": 604800,
+      "month": 2628000, 
+      "year": 31536000
+    }
+  }
+}
