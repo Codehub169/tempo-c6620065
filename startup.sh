@@ -4,6 +4,10 @@ set -e
 # Ensure script is run from its own directory or that paths are adjusted accordingly if not
 # cd "$(dirname "$0")" # Optional: if requirements.txt or app.py are not in PWD
 
+# Upgrade pip
+echo "Upgrading pip..."
+pip install --upgrade pip
+
 # Install dependencies
 if [ -f requirements.txt ]; then
   echo "Found requirements.txt, installing dependencies..."
